@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat May 13 10:16:02 CST 2023","Sat May 13 10:16:02 CST 2023","0","testcase.t_allure","test_allure_demo","TestAllure","","","测试用例标题2","执行测试用例1的结果是test2"
+"passed","Sat May 13 10:16:02 CST 2023","Sat May 13 10:16:02 CST 2023","0","testcase.t_allure","test_allure_demo","TestAllure","","","case2",""
+"passed","Sat May 13 10:16:02 CST 2023","Sat May 13 10:16:02 CST 2023","0","testcase.t_allure","test_allure_demo","TestAllure","","","测试用例标题3","执行测试用例1的结果是test3"
+"passed","Sat May 13 10:16:02 CST 2023","Sat May 13 10:16:02 CST 2023","0","testcase.t_allure","test_allure_demo","TestAllure","","","测试用例标题1","执行测试用例1的结果是test1"
+"passed","Sat May 13 10:16:02 CST 2023","Sat May 13 10:16:02 CST 2023","0","testcase.t_allure","test_allure_demo","TestAllure","","","case1",""

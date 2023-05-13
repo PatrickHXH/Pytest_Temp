@@ -1,0 +1,23 @@
+
+
+BASE:
+ #log等级
+ log_level: "debug"
+ #扩展名
+ log_extension: ".log"
+ test:
+  url: "http://211.103.136.242:8064"
+  case_file: "testdata.xlsx"
+  case_sheet: "美多商城接口测试"
+
+
+email:
+ smtpserver: smtp.qq.com
+ username: 864927796@qq.com
+ password: cjmqeitagjlibcfh
+ sender: 864927796@qq.com
+ receiver:
+  - '864927796@qq.com'
+  - '957701781@qq.com'
+ subject: 测试报告
+ msg_from: 864927796@qq.com <864927796@qq.com>
