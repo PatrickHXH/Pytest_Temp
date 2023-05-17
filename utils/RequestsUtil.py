@@ -1,39 +1,5 @@
 import requests
 from utils.LogUtil import my_log
-#1、创建封装get方法
-def requests_get(url,headers):
-#2、发送requests get请求
-    r = requests.get(url,headers = headers)
-#3、获取结果相应内容
-    code = r.status_code
-    try:
-        body = r.json()
-    except Exception as e:
-        body = r.text
-#4、内容存到字典
-    res = dict()
-    res["code"] = code
-    res["body"] = body
-#5、字典返回
-    return res
-
-#post方法封装
-#1、创建post方法
-def requests_post(url,json=None,headers=None):
-#2、发送post请求
-    r= requests.post(url,json=json,headers=headers)
-#3、获取结果内容
-    code = r.status_code
-    try:
-        body = r.json()
-    except Exception as e:
-        body = r.text
-#4、内容存到字典
-    res = dict()
-    res["code"] = code
-    res["body"] = body
-#5、字典返回
-    return res
 
 #重构
 #1、创建类
